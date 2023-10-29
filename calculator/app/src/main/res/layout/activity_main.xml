@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E0E0E0"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:layout_gravity="end"
+        android:textSize="24sp"
+        android:gravity="right"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@null"
+        android:text=""
+        android:textIsSelectable="false"
+        android:textColor="#000000" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="300dp">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="7"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="8"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="9"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="/"
+            android:onClick="onOperatorClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="4"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="5"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="6"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="*"
+            android:onClick="onOperatorClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="1"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="2"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="3"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="+"
+            android:onClick="onOperatorClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="0"
+            android:onClick="onDigitClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="="
+            android:onClick="onEqualsClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="-"
+            android:onClick="onOperatorClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="C"
+            android:onClick="onResetClick"
+            android:background="@drawable/round_button_blue"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="."
+            android:onClick="onDotClick"
+            android:background="@drawable/round_button_blue"/>
+
+    </GridLayout>
+
+</LinearLayout>
